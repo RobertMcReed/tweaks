@@ -1,7 +1,7 @@
 # tweaks
 This is a collection of enhancement tweaks. Most of them are specifically for MacOS, but the Canvas tweak is for Chrome, and should work on any platform.
 
-### Canvas tweak
+### Canvas Calendar Tweak
 
 By default, the Canvas calendar doesn't look great. There are stylistic components that make it hard to tell which assignments have been turned in, and which are still due.
 
