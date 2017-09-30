@@ -62,74 +62,74 @@ Give it go, and if you come up with any other helpful Canvas tweaks, let me know
 1. For the URL, type `https://canvas.instructure.com/calendar`.
 
 1. Copy the code from the [canvas-calendar-tweak.css](canvas-calendar-tweak.css) file (or just copy it from below), paste it into the empty field below the URL, and click Add.
-  ```css
-  /*
-  CANVAS CALENDAR TWEAKS
+        ```css
+        /*
+        CANVAS CALENDAR TWEAKS
 
-  Copyright (C) 2017 Robert Reed <https://github.com/RobertMcReed/>
-  Distributed under the MIT License.
-  */
+        Copyright (C) 2017 Robert Reed <https://github.com/RobertMcReed/>
+        Distributed under the MIT License.
+        */
 
-  .calendar__event--completed, .fc-time {
-      /*Dim the color of completed assignments and the time*/
-      color: #857878;
-  }
+        .calendar__event--completed, .fc-time {
+            /*Dim the color of completed assignments and the time*/
+            color: #857878;
+        }
 
-  a.assignment:hover .calendar__event--completed, a.assignment:hover .fc-time {
-      /*Brighten the completed assignment and the time when hovered*/
-      color: #0c8898;
-      /*Remove the completed assignment strikethrough on hover*/
-      text-decoration: none;
-  }
+        a.assignment:hover .calendar__event--completed, a.assignment:hover .fc-time {
+            /*Brighten the completed assignment and the time when hovered*/
+            color: #0c8898;
+            /*Remove the completed assignment strikethrough on hover*/
+            text-decoration: none;
+        }
 
-  a.assignment {
-      /*Make font redish by default*/
-      color: #fc5555;
-  }
+        a.assignment {
+            /*Make font redish by default*/
+            color: #fc5555;
+        }
 
-  a.assignment:hover {
-      /*make outstanding assignment text brighter on hover.*/
-      color: red;
-      /*Use a pointer on hover instedad of text cursor*/
-      cursor: pointer;
-  }
+        a.assignment:hover {
+            /*make outstanding assignment text brighter on hover.*/
+            color: red;
+            /*Use a pointer on hover instedad of text cursor*/
+            cursor: pointer;
+        }
 
-  .fc-content i[class*=icon-]:before, .fc-content i[class^=icon-]:before, .fc-content a[class*=icon-]:before, .fc-content a[class^=icon-]:before {
-      /*remove the assignment icons*/
-      display: none;
-      margin-right: 0;
-  }
+        .fc-content i[class*=icon-]:before, .fc-content i[class^=icon-]:before, .fc-content a[class*=icon-]:before, .fc-content a[class^=icon-]:before {
+            /*remove the assignment icons*/
+            display: none;
+            margin-right: 0;
+        }
 
-  div.fc-day-grid div {
-      /*Weeks are only as tall as is needed to fit the content*/
-      min-height: auto;
-      height: auto;
-  }
+        div.fc-day-grid div {
+            /*Weeks are only as tall as is needed to fit the content*/
+            min-height: auto;
+            height: auto;
+        }
 
-  div.fc-day-grid-container, div.fc-scroller {
-      /*Calendar is as tall as needed (no scoll needed)*/
-      height: auto;
-  }
+        div.fc-day-grid-container, div.fc-scroller {
+            /*Calendar is as tall as needed (no scoll needed)*/
+            height: auto;
+        }
 
-  .fc-time[data-start="11:59"] {
-      /*Fix the 11:59 submit time glitch*/
-      margin-right: -5px;
-  }
+        .fc-time[data-start="11:59"] {
+            /*Fix the 11:59 submit time glitch*/
+            margin-right: -5px;
+        }
 
-  /*TURN OFF ASSIGNMENT TIME (Optional) -- 2 Steps*/
+        /*TURN OFF ASSIGNMENT TIME (Optional) -- 2 Steps*/
 
-  .fc-time {
-      /*(Step 1 of 2) Uncomment the display rule below to turn off assignment time*/
-      /*display: none;*/
-  }
+        .fc-time {
+            /*(Step 1 of 2) Uncomment the display rule below to turn off assignment time*/
+            /*display: none;*/
+        }
 
-  .fc-day-grid-event .fc-content {
-      /*Show full title text*/
-      white-space: inherit;
-      /*(Step 2 of 2) Uncomment the display rule below to fix alignment of the title when time is off*/
-      /*display: flex;*/
-  }
-  ```
+        .fc-day-grid-event .fc-content {
+            /*Show full title text*/
+            white-space: inherit;
+            /*(Step 2 of 2) Uncomment the display rule below to fix alignment of the title when time is off*/
+            /*display: flex;*/
+        }
+        ```
 
 1. Make sure the checkbox next to the Canvas style is checked, and you're good to go! You'll notice that when you go to the Canvas calendar from now on the Stylebot logo will turn green ![Stylebot logo](img/stylebot2.png), indicating the custom CSS rules have taken effect.
 
