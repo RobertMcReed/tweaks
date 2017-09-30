@@ -1,9 +1,12 @@
 # Canvas Calendar Tweak
 
-### About
-By default, the Canvas calendar doesn't look great. There are stylistic components that make it hard to tell which assignments have been turned in, and which are still due.
+#### [About](#About) | [Comparison: Before and After](#Comparison:-Before-and-After) | [Issues and Fixes](#Issues-and-Fixes) | [Install](#Install)
 
-This tweak modifies the CSS with the help of the chrome extension Stylebot. After defining a style sheet, your Canvas calendar will no longer be frustratingly unhelpful, but will instead be the helpful tool that it should be!
+
+### About
+By default, the Canvas calendar doesn't look great. There are stylistic components that make it hard to tell which assignments have been turned in, and which assignments are still due.
+
+This tweak modifies the CSS with the help of the chrome extension [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha). After defining a style sheet, your Canvas calendar will no longer be frustratingly unhelpful, but will instead be the helpful tool that it should be!
 
 #### Comparison: Before and After
 ![Canvas tweak comparison: Before and After](img/canvas-demo.gif)
