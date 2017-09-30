@@ -51,7 +51,7 @@ div.fc-day-grid-container, div.fc-scroller {
     margin-right: -5px;
 }
 
-/*TURN OFF ASSIGNMENT TIME (2 Steps)*/
+/*TURN OFF ASSIGNMENT TIME (Optional) -- 2 Steps*/
 
 .fc-time {
     /*(Step 1 of 2) Uncomment the display rule below to turn off assignment time*/

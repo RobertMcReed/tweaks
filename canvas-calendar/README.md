@@ -8,6 +8,8 @@ By default, the Canvas calendar doesn't look great. There are stylistic componen
 
 This tweak modifies the CSS with the help of the chrome extension [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha). After defining a style sheet, your Canvas calendar will no longer be frustratingly unhelpful, but will instead be the helpful tool that it should be!
 
+Give it go, and if you come up with any other helpful Canvas tweaks, let me know!
+
 ### Comparison: Before and After
 ![Canvas tweak comparison: Before and After](img/canvas-demo.gif)
 
@@ -60,7 +62,7 @@ This tweak modifies the CSS with the help of the chrome extension [Stylebot](htt
 
 1. For the URL, type `https://canvas.instructure.com/calendar`.
 
-1. Copy the code from the [canvas-calendar-tweak.css](canvas-calendar-tweak.css) file, or just copy it from below:
+1. Copy the code from the [canvas-calendar-tweak.css](canvas-calendar-tweak.css) file (or just copy it from below), paste it into the empty field below the URL, and click Add.
 ```css
 /*
 CANVAS CALENDAR TWEAKS
@@ -115,7 +117,7 @@ div.fc-day-grid-container, div.fc-scroller {
     margin-right: -5px;
 }
 
-/*TURN OFF ASSIGNMENT TIME (2 Steps)*/
+/*TURN OFF ASSIGNMENT TIME (Optional) -- 2 Steps*/
 
 .fc-time {
     /*(Step 1 of 2) Uncomment the display rule below to turn off assignment time*/
@@ -129,3 +131,7 @@ div.fc-day-grid-container, div.fc-scroller {
     /*display: flex;*/
 }
 ```
+
+1. Make sure the checkbox next to the Canvas style is checked, and you're good to go! You'll notice that when you go to the Canvas calendar from now on the Stylebot logo will turn green ![Stylebot logo](img/stylebot2.png), indicating the custom CSS rules have taken effect.
+
+1. For an even cleaner look, you can disable the time in the calendar view as well by uncommenting two lines at the bottom of the CSS, but for obvious reasons that might not be the best idea.
