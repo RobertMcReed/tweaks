@@ -1,0 +1,47 @@
+/*CANVAS CALENDAR TWEAKS*/
+
+.calendar__event--completed {
+    color: #857878;
+    /*Dim the color of completed assignments*/
+}
+
+.calendar__event--completed:hover {
+    color: #0c8898;
+    /*Brighten the assignment when hovered*/
+    text-decoration: none;
+}
+
+.fc-content {
+    color: #ff3535;
+    /*Make font red by default*/
+}
+
+.fc-content:hover {
+    color: red;
+    /*Use a pointer on hover instedad of text cursor*/
+    /*make outstanding assignment text darker on hover.*/
+    cursor: pointer;
+}
+
+.fc-day-grid-event .fc-content {
+    /*Show full title text*/
+    /*Fix alignment of title*/
+    display: flex;
+    white-space: inherit;
+}
+
+.fc-time, .fc-content i[class*=icon-]:before, .fc-content i[class^=icon-]:before, .fc-content a[class*=icon-]:before, .fc-content a[class^=icon-]:before {
+    /*disable the time and icons*/
+    display: none;
+}
+
+div.fc-day-grid div {
+    /*Collapse empty rows (part 1)*/
+    min-height: auto;
+    height: auto;
+}
+
+div.fc-day-grid-container, div.fc-scroller {
+    /*Calendar auto sizes, no need to scroll*/
+    height: auto;
+}
