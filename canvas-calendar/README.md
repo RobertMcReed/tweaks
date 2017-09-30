@@ -1,6 +1,6 @@
 # Canvas Calendar Tweak
 
-#### [About](#About) | [Comparison: Before and After](#Comparison:-Before-and-After) | [Issues and Fixes](#Issues-and-Fixes) | [Install](#Install)
+#### [About](#about) | [Comparison: Before and After](#comparison\:-before-and-after) | [Issues and Fixes](#issues-and-fixes) | [Install](#install)
 
 
 ### About
