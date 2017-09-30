@@ -1,19 +1,24 @@
-/*CANVAS CALENDAR TWEAKS*/
+/*
+CANVAS CALENDAR TWEAKS
+
+Copyright (C) 2017 Robert Reed <https://github.com/RobertMcReed/>
+Distributed under the MIT License.
+*/
 
 .calendar__event--completed, .fc-time {
-    /*Dim the color of completed assignments and time*/
+    /*Dim the color of completed assignments and the time*/
     color: #857878;
 }
 
 a.assignment:hover .calendar__event--completed, a.assignment:hover .fc-time {
-    /*Brighten the completed assignment and time when hovered*/
+    /*Brighten the completed assignment and the time when hovered*/
     color: #0c8898;
-    /*Remove the strikethrough*/
+    /*Remove the completed assignment strikethrough on hover*/
     text-decoration: none;
 }
 
 a.assignment {
-    /*Make font red by default*/
+    /*Make font redish by default*/
     color: #fc5555;
 }
 
@@ -25,19 +30,19 @@ a.assignment:hover {
 }
 
 .fc-content i[class*=icon-]:before, .fc-content i[class^=icon-]:before, .fc-content a[class*=icon-]:before, .fc-content a[class^=icon-]:before {
-    /*remove the icons*/
+    /*remove the assignment icons*/
     display: none;
     margin-right: 0;
 }
 
 div.fc-day-grid div {
-    /*Collapse empty rows*/
+    /*Weeks are only as tall as is needed to fit the content*/
     min-height: auto;
     height: auto;
 }
 
 div.fc-day-grid-container, div.fc-scroller {
-    /*Full length calendar*/
+    /*Calendar is as tall as needed (no scoll needed)*/
     height: auto;
 }
 
@@ -46,16 +51,16 @@ div.fc-day-grid-container, div.fc-scroller {
     margin-right: -5px;
 }
 
-/*TURN OFF TIME BELOW*/
+/*TURN OFF ASSIGNMENT TIME (2 Steps)*/
 
 .fc-time {
-    /* Uncomment below to turn off time */
+    /*(Step 1 of 2) Uncomment the display rule below to turn off assignment time*/
     /*display: none;*/
 }
 
 .fc-day-grid-event .fc-content {
     /*Show full title text*/
     white-space: inherit;
-    /*NO TIME - Turn ON!: Fix alignment of title*/
+    /*(Step 2 of 2) Uncomment the display rule below to fix alignment of the title when time is off*/
     /*display: flex;*/
 }
