@@ -10,6 +10,8 @@ This tweak modifies the CSS with the help of the chrome extension [Stylebot](htt
 
 Give it go, and if you come up with any other helpful Canvas tweaks, let me know!
 
+![Better calendar](img/canvas-screen.png)
+
 ### Comparison: Before and After
 ![Canvas tweak comparison: Before and After](img/canvas-demo.gif)
 
